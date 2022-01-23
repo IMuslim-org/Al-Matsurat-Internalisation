@@ -4,6 +4,7 @@ import os
 import json
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
+arabic_file = open(f"{dir_path}/data/kubo.json", "w")
 kubro_bahasa = open(f"{dir_path}/bahasa/kubro.json", "w")
 
 response = requests.get("https://almatsurat.net/kubro")
@@ -12,35 +13,56 @@ soup = BeautifulSoup(response.text)
 zikirChilds = soup.findAll(attrs={'class': 'zikir-child'})
 translatedTextContents = []
 
+contents = []
+
 for elementIndex in range(len(zikirChilds)):
     element = zikirChilds[elementIndex]
 
     content = {'id':elementIndex}
     translatedTextContent = {'id':elementIndex}
+   
+    textQurans = element.findAll(['p', 'div'], attrs={'class': 'text-quran text-justify'})
+    intro = element.find('div',attrs={'class': 'text-center'})
+    dzkirContents = []
+    
+    for textQuran in textQurans:
+        dzkirContents.append(textQuran.text)
+
+    if intro == None:
+        pass
+    else:
+        content['intro'] = intro.text
+
+    content['contents'] = dzkirContents
+    contents.append(content)
 
     # the translation text
     
     title = element.find('span', attrs={'class': 'title'}).text
     translatedTexts = []
-
-    textTranslatesDivs = element.findAll('div', attrs={'class': ['text-translate']})
+    
+    textTranslatesDivs = element.select('div.text-translate.text-justify') 
     textTranslatesPs = element.findAll('p', attrs={'class': ['text-justify']})
+    textTranslatesAyat = element.findAll('span', attrs={'class': ['ayat']})
 
     introTranslatedText = element.find('div', attrs={'class': 'text-translate'})
 
     if introTranslatedText is not None:
         translatedTextContent['intro'] = introTranslatedText.text
 
-
     if len(textTranslatesDivs) > 0:
-        for text in textTranslatesDivs:
-            translatedTexts.append(text.text)
+        for textIndex in range(len(textTranslatesDivs)-1):
+            text = textTranslatesDivs[textIndex]
+            translatedText = {'ayat': textTranslatesAyat[textIndex].text, 'text': text.text}
+            translatedTexts.append(translatedText)
     else:
-        translatedTexts.append(textTranslatesPs[1].text)
+        translatedText = {'ayat': textTranslatesAyat[0].text, 'text':textTranslatesPs[1].text}
+        translatedTexts.append(translatedText)
         
     translatedTextContent['contents'] = translatedTexts
+    translatedTextContent['title'] = title
+
     translatedTextContents.append(translatedTextContent)
     
-
-
+arabic_file.write(str(contents).replace('\'', '"'))
 kubro_bahasa.write(json.dumps(translatedTextContents))

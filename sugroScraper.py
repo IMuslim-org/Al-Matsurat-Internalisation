@@ -4,7 +4,7 @@ import os
 import json
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
-arabic_file = open(f"{dir_path}/data/quranTexts.json", "w")
+arabic_file = open(f"{dir_path}/data/sugro.json", "w")
 sugro_bahasa = open(f"{dir_path}/bahasa/sugro.json", "w")
 
 response = requests.get("https://almatsurat.net/sugro")
@@ -39,23 +39,29 @@ for elementIndex in range(len(zikirChilds)):
     
     title = element.find('span', attrs={'class': 'title'}).text
     translatedTexts = []
+    
+    textTranslatesDivs = element.select('div.text-translate.text-justify') 
 
-    textTranslatesDivs = element.findAll('div', attrs={'class': ['text-translate']})
     textTranslatesPs = element.findAll('p', attrs={'class': ['text-justify']})
+    textTranslatesAyat = element.findAll('span', attrs={'class': ['ayat']})
 
     introTranslatedText = element.find('div', attrs={'class': 'text-translate'})
 
     if introTranslatedText is not None:
         translatedTextContent['intro'] = introTranslatedText.text
 
-
     if len(textTranslatesDivs) > 0:
-        for text in textTranslatesDivs:
-            translatedTexts.append(text.text)
+        for textIndex in range(len(textTranslatesDivs)):
+            text = textTranslatesDivs[textIndex]
+            translatedText = {'ayat': textTranslatesAyat[textIndex].text, 'text': text.text}
+            translatedTexts.append(translatedText)
     else:
-        translatedTexts.append(textTranslatesPs[1].text)
+        translatedText = {'ayat': textTranslatesAyat[0].text, 'text':textTranslatesPs[1].text}
+        translatedTexts.append(translatedText)
         
     translatedTextContent['contents'] = translatedTexts
+    translatedTextContent['title'] = title
+
     translatedTextContents.append(translatedTextContent)
     
 

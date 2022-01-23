@@ -1,6 +1,7 @@
 [
   {
     "id": 0,
+    "intro": "Dengan menyebut nama Allah Yang Maha Pemurah lagi Maha Penyayang",
     "contents": [
       {
         "ayat": " Ayat 1",
@@ -16,11 +17,7 @@
         "ayat": " Ayat 5",
         "text": "Hanya kepada Engkaulah kami menyembah dan hanya kepada Engkaulah kami mohon pertolongan"
       },
-      { "ayat": " Ayat 6", "text": "Tunjukilah kami jalan yang lurus" },
-      {
-        "ayat": " Ayat 7",
-        "text": "(yaitu) jalan orang-orang yang telah Engkau anugerahkan nikmat kepada mereka, bukan (jalan) mereka yang dimurkai dan bukan (pula jalan) mereka yang sesat"
-      }
+      { "ayat": " Ayat 6", "text": "Tunjukilah kami jalan yang lurus" }
     ],
     "title": "Al-Fatihah - (1x)"
   },
@@ -28,22 +25,22 @@
     "id": 1,
     "intro": "Dengan menyebut nama Allah Yang Maha Pemurah lagi Maha Penyayang",
     "contents": [
-      { "ayat": " Ayat 1", "text": "Alif Laam Miim" },
       {
-        "ayat": " Ayat 2",
+        "ayat": " Ayat 1",
+        "text": "Dengan menyebut nama Allah Yang Maha Pemurah lagi Maha Penyayang"
+      },
+      { "ayat": " Ayat 2", "text": "Alif Laam Miim" },
+      {
+        "ayat": " Ayat 3",
         "text": "Kitab (Al Qur'an) ini tidak ada keraguan padanya; petunjuk bagi mereka yang bertakwa"
       },
       {
-        "ayat": " Ayat 3",
+        "ayat": " Ayat 4",
         "text": "(yaitu) mereka yang beriman kepada yang gaib, yang mendirikan shalat dan menafkahkan sebahagian rezki yang Kami anugerahkan kepada mereka"
       },
       {
-        "ayat": " Ayat 4",
-        "text": "Dan mereka yang beriman kepada Kitab (AlQur'an) yang telah diturunkan kepadamu dan Kitab-kitab yang telah diturunkan sebelummu, serta mereka yakin akan adanya (kehidupan) akhirat"
-      },
-      {
         "ayat": " Ayat 5",
-        "text": "Mereka itulah yang tetap mendapat petunjuk dari Tuhan mereka, dan merekalah orang-orang yang beruntung"
+        "text": "Dan mereka yang beriman kepada Kitab (AlQur'an) yang telah diturunkan kepadamu dan Kitab-kitab yang telah diturunkan sebelummu, serta mereka yakin akan adanya (kehidupan) akhirat"
       }
     ],
     "title": "Al-Baqarah - (1x)"
@@ -51,24 +48,16 @@
   {
     "id": 2,
     "intro": "Allah, tidak ada Tuhan (yang berhak disembah) melainkan Dia Yang Hidup kekal lagi terus menerus mengurus (makhluk-Nya); tidak mengantuk dan tidak tidur. Kepunyaan-Nya apa yang di langit dan di bumi. Tiada yang dapat memberi syafaat di sisi Allah tanpa izin-Nya. Allah mengetahui apa-apa yang di hadapan mereka dan di belakang mereka, dan mereka tidak mengetahui apa-apa dari ilmu Allah melainkan apa yang dikehendaki-Nya. Kursi Allah meliputi langit dan bumi. Dan Allah tidak merasa berat memelihara keduanya, dan Allah Maha Tinggi lagi Maha Besar",
-    "contents": [
-      {
-        "ayat": " Ayat 255",
-        "text": "Allah, tidak ada Tuhan (yang berhak disembah) melainkan Dia Yang Hidup kekal lagi terus menerus mengurus (makhluk-Nya); tidak mengantuk dan tidak tidur. Kepunyaan-Nya apa yang di langit dan di bumi. Tiada yang dapat memberi syafaat di sisi Allah tanpa izin-Nya. Allah mengetahui apa-apa yang di hadapan mereka dan di belakang mereka, dan mereka tidak mengetahui apa-apa dari ilmu Allah melainkan apa yang dikehendaki-Nya. Kursi Allah meliputi langit dan bumi. Dan Allah tidak merasa berat memelihara keduanya, dan Allah Maha Tinggi lagi Maha Besar"
-      }
-    ],
+    "contents": [],
     "title": "Al-Baqarah - (1x)"
   },
   {
     "id": 3,
+    "intro": "Tidak ada paksaan untuk (memasuki) agama (Islam); sesungguhnya telah jelas jalan yang benar daripada jalan yang sesat. Karena itu barang siapa yang ingkar kepada Thaghut dan beriman kepada Allah, maka sesungguhnya ia telah berpegang kepada buhu tali yang amat kuat yang tidak akan putus. Dan Allah Maha Mendengar lagi Maha Mengetahui.",
     "contents": [
       {
         "ayat": " Ayat 256",
         "text": "Tidak ada paksaan untuk (memasuki) agama (Islam); sesungguhnya telah jelas jalan yang benar daripada jalan yang sesat. Karena itu barang siapa yang ingkar kepada Thaghut dan beriman kepada Allah, maka sesungguhnya ia telah berpegang kepada buhu tali yang amat kuat yang tidak akan putus. Dan Allah Maha Mendengar lagi Maha Mengetahui."
-      },
-      {
-        "ayat": " Ayat 257",
-        "text": "Allah Pelindung orang-orang yang beriman; Dia mengeluarkan mereka dari kegelapan (kekafiran) kepada cahaya (iman). Dan orang-orang yang kafir, pelindung-pelindungnya ialah setan, yang mengeluarkan mereka dari cahaya kepada kegelapan (kekafiran). Mereka itu adalah penghuni neraka; mereka kekal di dalamnya"
       }
     ],
     "title": "Al-Baqarah - (1x)"
@@ -84,10 +73,6 @@
       {
         "ayat": " Ayat 285",
         "text": "Rasul telah beriman kepada Al Qur'an yang diturunkan kepadanya dari Tuhannya, demikian pula orang-orang yang beriman. Semuanya beriman kepada Allah, malaikat-malaikat-Nya, kitab-kitab-Nya dan rasul-rasul-Nya. (Mereka mengatakan): \"Kami tidak membeda-bedakan antara seseorang pun (dengan yang lain) dari rasul rasul-Nya\", dan mereka mengatakan: \"Kami dengar dan kami taat\". (Mereka berdoa):\"Ampunilah kami ya Tuhan kami dan kepada Engkaulah tempat kembali\""
-      },
-      {
-        "ayat": " Ayat 286",
-        "text": "Allah tidak membebani seseorang melainkan sesuai dengan kesanggupannya. Ia mendapat pahala (dari kebajikan) yang diusahakannya dan ia mendapat siksa (dari kejahatan) yang dikerjakannya. (Mereka berdo`a): \"Ya Tuhan kami, janganlah Engkau hukum kami jika kami lupa atau kami tersalah. Ya Tuhan kami, janganlah Engkau bebankan kepada kami beban yang berat sebagaimana Engkau bebankan kepada orang-orang yang sebelum kami. Ya Tuhan kami, janganlah Engkau pikulkan kepada kami apa yang tak sanggup kami memikulnya. Beri maaflah kami; ampunilah kami; dan rahmatilah kami. Engkaulah Penolong kami, maka tolonglah kami terhadap kaum yang kafir\""
       }
     ],
     "title": "Al-Baqarah - (1x)"
@@ -98,19 +83,19 @@
     "contents": [
       {
         "ayat": " Ayat 1",
-        "text": "Katakanlah: \"Dialah Allah, Yang Maha Esa"
+        "text": "Dengan menyebut nama Allah Yang Maha Pemurah lagi Maha Penyayang"
       },
       {
         "ayat": " Ayat 2",
-        "text": "Allah adalah Tuhan yang bergantung kepada-Nya segala sesuatu"
+        "text": "Katakanlah: \"Dialah Allah, Yang Maha Esa"
       },
       {
         "ayat": " Ayat 3",
-        "text": "Dia tiada beranak dan tidak pula diperanakkan"
+        "text": "Allah adalah Tuhan yang bergantung kepada-Nya segala sesuatu"
       },
       {
         "ayat": " Ayat 4",
-        "text": "Dan tidak ada seorangpun yang setara dengan Dia"
+        "text": "Dia tiada beranak dan tidak pula diperanakkan"
       }
     ],
     "title": "Al-Ikhlas - (3x)"
@@ -121,20 +106,20 @@
     "contents": [
       {
         "ayat": " Ayat 1",
+        "text": "Dengan menyebut nama Allah Yang Maha Pemurah lagi Maha Penyayang"
+      },
+      {
+        "ayat": " Ayat 2",
         "text": "1.\tKatakanlah: \"Aku berlindung kepada Tuhan Yang Menguasai subuh,\r\n"
       },
-      { "ayat": " Ayat 2", "text": "Dari kejahatan makhluk-Nya" },
+      { "ayat": " Ayat 3", "text": "Dari kejahatan makhluk-Nya" },
       {
-        "ayat": " Ayat 3",
+        "ayat": " Ayat 4",
         "text": "Dan dari kejahatan malam apabila telah gelap gulita"
       },
       {
-        "ayat": " Ayat 4",
-        "text": "Dan dari kejahatan wanita-wanita tukang sihir yang menghembus pada buhul-buhul"
-      },
-      {
         "ayat": " Ayat 5",
-        "text": "Dan dari kejahatan pendengki bila ia dengki"
+        "text": "Dan dari kejahatan wanita-wanita tukang sihir yang menghembus pada buhul-buhul"
       }
     ],
     "title": "Al-Falaq - (3x)"
@@ -145,19 +130,22 @@
     "contents": [
       {
         "ayat": " Ayat 1",
+        "text": "Dengan menyebut nama Allah Yang Maha Pemurah lagi Maha Penyayang"
+      },
+      {
+        "ayat": " Ayat 2",
         "text": "Katakanlah: Aku berlindung kepada Tuhan(yang memelihara dan menguasai) manusia"
       },
-      { "ayat": " Ayat 2", "text": "Raja manusia" },
-      { "ayat": " Ayat 3", "text": "Sembahan manusia" },
+      { "ayat": " Ayat 3", "text": "Raja manusia" },
+      { "ayat": " Ayat 4", "text": "Sembahan manusia" },
       {
-        "ayat": " Ayat 4",
+        "ayat": " Ayat 5",
         "text": "Dari kejahatan (bisikan) setan yang biasa bersembunyi"
       },
       {
-        "ayat": " Ayat 5",
+        "ayat": " Ayat 6",
         "text": "Yang membisikkan (kejahatan) ke dalam dada manusia"
-      },
-      { "ayat": " Ayat 6", "text": "Dari (golongan) jin dan manusia" }
+      }
     ],
     "title": "An-Naas - (3x)"
   },
@@ -363,15 +351,11 @@
   },
   {
     "id": 28,
-
+    "intro": "Katakanlah: \"Wahai Tuhan Yang mempunyai kerajaan, Engkau berikan kerajaan kepada orang yang Engkau kehendaki dan Engkau cabut kerajaan dari orang yang Engkau kehendaki. Engkau muliakan orang yang Engkau kehendaki dan Engkau hinakan orang yang Engkau kehendaki. Di tangan Engkaulah segala kebajikan.Sesungguhnya Engkau Maha Kuasa atas segala sesuatu.",
     "contents": [
       {
         "ayat": " Ayat 26",
         "text": "Katakanlah: \"Wahai Tuhan Yang mempunyai kerajaan, Engkau berikan kerajaan kepada orang yang Engkau kehendaki dan Engkau cabut kerajaan dari orang yang Engkau kehendaki. Engkau muliakan orang yang Engkau kehendaki dan Engkau hinakan orang yang Engkau kehendaki. Di tangan Engkaulah segala kebajikan.Sesungguhnya Engkau Maha Kuasa atas segala sesuatu."
-      },
-      {
-        "ayat": " Ayat 27",
-        "text": "Engkau masukkan malam ke dalam siang dan Engkau masukkan siang ke dalam malam. Engkau keluarkan yang hidup dari yang mati, dan Engkau keluarkan yang mati dari yang hidup. Dan Engkau beri rezeki siapa yang Engkau kehendaki tanpa hisab (batas)"
       }
     ],
     "title": "Ali Imran - (1x)"
