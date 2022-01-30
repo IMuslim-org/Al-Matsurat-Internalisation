@@ -42,21 +42,33 @@ for elementIndex in range(len(zikirChilds)):
     translatedTexts = []
     
     textTranslatesDivs = element.select('div.text-translate.text-justify') 
+    # print(textTranslatesDivs)
+
+    # remove quranText, being removed because to get the translation text
+    for textQuran in element.select('p.text-quran'):
+        print(textQuran.decompose())
+
     textTranslatesPs = element.findAll('p', attrs={'class': ['text-justify']})
     textTranslatesAyat = element.findAll('span', attrs={'class': ['ayat']})
 
-    introTranslatedText = element.find('div', attrs={'class': 'text-translate'})
+    introTranslatedText = element.select('div.text-translate.text-center') 
+    # translatedTexts.append(introTranslatedText.text)
+    print(introTranslatedText)
 
-    if introTranslatedText is not None:
-        translatedTextContent['intro'] = introTranslatedText.text
+
+    if introTranslatedText is not None and isinstance(introTranslatedText, list):
+        try:
+            translatedTextContent['intro'] = introTranslatedText[0].text
+        except:
+            pass
 
     if len(textTranslatesDivs) > 0:
-        for textIndex in range(len(textTranslatesDivs)-1):
+        for textIndex in range(len(textTranslatesDivs)):
             text = textTranslatesDivs[textIndex]
             translatedText = {'ayat': textTranslatesAyat[textIndex].text, 'text': text.text}
             translatedTexts.append(translatedText)
     else:
-        translatedText = {'ayat': textTranslatesAyat[0].text, 'text':textTranslatesPs[1].text}
+        translatedText = {'ayat': textTranslatesAyat[0].text, 'text':textTranslatesPs[0].text}
         translatedTexts.append(translatedText)
         
     translatedTextContent['contents'] = translatedTexts
