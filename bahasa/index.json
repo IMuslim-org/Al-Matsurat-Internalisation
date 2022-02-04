@@ -1,4 +1,13 @@
 {
   "desc": "Dzikir kepada Allah di mana saja, kapan saja, mudah, dan cepat.",
-  "title": "Aku berlindung kepada Allah yang Maha Mendengar lagi Maha Mengetahui dari godaan syetan yang terkutuk."
+  "title": "Aku berlindung kepada Allah yang Maha Mendengar lagi Maha Mengetahui dari godaan syetan yang terkutuk.",
+  "navbar": {
+    "settings_text": "Pengaturan",
+    "lang": "Bahasa",
+    "theme": "Tema",
+    "themes": {
+      "light_text": "Terang",
+      "dark_text": "Gelap"
+    }
+  }
 }

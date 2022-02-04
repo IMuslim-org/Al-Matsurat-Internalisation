@@ -1,4 +1,13 @@
 {
   "desc": "Dhikr to Allah anywhere, anytime, easy, and fast.",
-  "title": "I seek refuge in Allah, the All-Hearing, All-Knowing, from the temptations of the accursed Satan."
+  "title": "I seek refuge in Allah, the All-Hearing, All-Knowing, from the temptations of the accursed Satan.",
+  "navbar": {
+    "settings_text": "Settings",
+    "lang": "Languages",
+    "theme": "Theme",
+    "themes": {
+      "light_text": "Light",
+      "dark_text": "Dark"
+    }
+  }
 }
