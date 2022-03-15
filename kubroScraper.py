@@ -53,7 +53,7 @@ for elementIndex in range(len(zikirChilds)):
 
     introTranslatedText = element.select('div.text-translate.text-center') 
     # translatedTexts.append(introTranslatedText.text)
-    print(introTranslatedText)
+    # print(introTranslatedText)
 
 
     if introTranslatedText is not None and isinstance(introTranslatedText, list):
