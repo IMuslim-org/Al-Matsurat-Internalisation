@@ -78,6 +78,5 @@ for elementIndex in range(len(zikirChilds)):
     translatedTextContents.append(translatedTextContent)
     
 
-
 arabic_file.write(str(contents).replace('\'', '"'))
 sugro_bahasa.write(json.dumps(translatedTextContents))
