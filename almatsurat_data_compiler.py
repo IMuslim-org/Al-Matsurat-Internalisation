@@ -4,7 +4,6 @@ import json
 import os
 import argparse
 
-from matplotlib.font_manager import json_dump, json_load
 
 
 parser = argparse.ArgumentParser()
