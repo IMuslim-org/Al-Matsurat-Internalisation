@@ -4,8 +4,6 @@ import json
 import os
 import argparse
 
-
-
 parser = argparse.ArgumentParser()
 parser.add_argument("--dzikir_type", dest="dzikir_type", type=str, help="Please Add Al Matsurat Type")
 args = parser.parse_args()

@@ -27,18 +27,16 @@ else:
 
 dhikrSections = {}
 
-count = 1
+count = 0
 currentId = 0
 for dhikrIdSection in dzikirData:
-    currentId = dhikrIdSection['id']+1
+    currentId = dhikrIdSection['id']
     print(currentId)
 
-    for contents in dhikrIdSection['contents']:
-        dhikrSections[str(count)] = f"{currentId}.{count}"
+    for i in range(len(dhikrIdSection['contents'])):
+        contents = dhikrIdSection['contents'][i]
+        dhikrSections[str(count)] = f"{currentId}.{i}"
         
         count+=1
-    
-    
-    
 
 open(f"{__dir__}/data/{dzikir_type}_section.json", "w").write(str(dhikrSections).replace("'", "\""))
