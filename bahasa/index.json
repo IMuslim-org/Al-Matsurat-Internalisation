@@ -4,10 +4,15 @@
   "navbar": {
     "settings_text": "Pengaturan",
     "lang": "Bahasa",
-    "theme": "Tema",
+    "theme": "Mode Tampilan",
     "themes": {
       "light_text": "Terang",
       "dark_text": "Gelap"
     }
+  },
+  "dzikir_time": {
+    "title": "Pilih Waktu Berdzikir",
+    "morning": "Dzikir Pagi",
+    "evening": "Dzikir Sore"
   }
 }
