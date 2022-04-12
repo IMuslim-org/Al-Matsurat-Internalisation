@@ -49,11 +49,7 @@ with latin_sugro as csv_file:
             currentId += 1
         
 if dzikir_type == "sugro" :
-    # arabic_file_sugro.writable = True
-    # arabic_file_sugro.writelines
-    # print(json.dumps(dzikirData))
     open(f"{__dir__}/data/sugro.json", "w").write(str(list(dzikirData)).replace('\'', '"'))
-    # arabic_file_sugro.write(json.dumps(dzikirData))
 
 
 # print(csv)
